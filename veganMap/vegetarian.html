@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UFT-8">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Sawarabi+Mincho&display=swap">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Tokyo Vegan Map</title>
+    </head>
+    <body>
+        <header>
+            <h1>
+                <a href="index.html"><img src="images/logo_black_toka_240.png" onmouseover="this.src='images/logo_toka_240.png'" onmouseout="this.src='images/logo_black_toka_240.png'"></a>    
+            </h1>
+            <nav>
+                <ul class="ffJosefin">
+                    <li><a href="vegan.html">Vegan</a></li>
+                    <li><a href="vegetarian.html">Vegetarian</a></li>
+                    <li><a href="gluten_free.html">Gluten Free</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h2 class="ffJosefin">Vegetarian Map</h2>
+            <div class="mapAndText">
+                <section class="mapArea">
+                    <div class="iframeWrap">
+                        <iframe src="https://www.google.com/maps/d/embed?mid=1p7EWZXccOrw2KRRjUL49SjaVU__aCuw&ehbc=2E312F"></iframe>
+                    </div>
+                </section>
+                <section class="textArea">
+                    <p>Click <img src="images/map_icon.png"> to see the shop list.</p>
+                    <p>The shop categories are:
+                        <ul>
+                            <li><span class="red">Red:</span>    Japanese</li>
+                            <li><span class="black">Black:</span>   Zen/Buddhist</li>
+                            <li><span class="yellow">Yellow:</span> Chinese</li>
+                            <li><span class="green">Green:</span>  Indian</li>
+                            <li><span class="blue">Blue:</span>   Western</li>
+                            <li><span class="gray">Gray:</span>   Others</li>
+                        </ul>
+                    </p>
+                </section>
+            </div>
+        </main>
+        <footer class="ffJosefin">
+            <p><small>© legalbot.jp</small></p>
+        </footer>
+    </body>
+</html>

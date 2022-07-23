@@ -1,0 +1,163 @@
+@charset "utf-8";
+
+header {
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    z-index:100;
+    background-color: #75CFB8;
+    height:50px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding:20px;
+}
+
+header nav ul {
+    display: flex;
+    width:100%;
+    justify-content:center;
+}
+
+header nav ul li a:hover {
+    /* text-decoration:underline; */
+    color:#FFC478;
+}
+
+header nav li a {
+    margin:10px 30px;
+}
+
+.ffJosefin {
+    font-family:'Josefin Sans', sans-serif;
+    color: #121212;
+}
+
+.bgWrap {
+    width:100vw;
+    height: 93vh;
+    background: url(../images/veg.jpg) no-repeat right center/cover;
+}
+
+.innerWrap {
+    width:60%;
+    margin: 0 auto;
+    position:absolute;
+    top:50%;
+    left:20%;
+}
+
+.innerWrap p {
+    height:fit-content;
+    margin: 10px auto;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 35px;
+    background-color: #F0E5D8;
+    color:#121212;
+}
+
+.button {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button li {
+    width:30%;
+    height: fit-content;
+    background-color:#121212;
+    color: #F0E5D8;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 1vh;
+    border-radius: 10px;
+}
+
+.button li a {
+    padding: 15px 15px;
+    display: block;
+}
+
+
+.button li:hover {
+    color: #121212;
+    background-color: #FFC478;
+}
+
+.mapAndText {
+    display:flex;
+    justify-content: space-evenly;
+    height:100%;
+    padding-bottom:10px;
+    background-color: #F0E5D8;
+}
+
+main h2 {
+    font-size:60px;
+    letter-spacing:0.05em;
+    padding-top:70px;
+    padding-left:5%;
+    padding-bottom:1%;
+    text-align: left; 
+    background-color: #F0E5D8;
+}
+
+.mapArea {
+    width:73%;
+}
+
+.textArea {
+    width: 22%;
+    background-color:#BBDFC8;
+    border-radius: 20px;
+}
+
+.textArea p {
+    line-height:1em;
+    margin-top:30px;
+    margin-bottom: 2em;
+    padding:5px;
+}
+
+.textArea ul {
+    list-style: circle;
+    padding-left: 20%;
+}
+
+.textArea ul li {
+    margin-bottom: 0.5em;
+}
+
+.red {color:red;}
+.black {color:black}
+.yellow {color:orange;}
+.green {color:green;}
+.blue {color:blue;}
+.gray {color:gray;}
+
+
+.iframeWrap {
+    overflow:hidden;
+    padding-bottom:75%;
+    height: 0;
+    position: relative;
+}
+
+.iframeWrap iframe {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+small {
+    background-color:#75CFB8;
+    display: block;
+    text-align: center;
+    padding:20px;
+}
